@@ -1,0 +1,90 @@
+
+.home {
+  height: 100vh;
+}
+.title-pers , .title-ubicacion{
+  text-align: center;
+  color:white;
+  font-size: 5em;
+  font-family: "Dokdo", cursive;;
+}
+.sect-per {
+  min-height: 90vh;
+  margin: auto;
+  max-width: 100%;
+  background: rgb(37,36,26);
+background: linear-gradient(180deg, rgba(37,36,26,0.8267682072829132) 14%, rgba(28,36,43,1) 99%);
+}
+.banner {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+  /* background-image: url(https://i.pinimg.com/564x/8c/cb/48/8ccb48330a7757a44b4f093b27772efd.jpg); */
+  flex-direction: column;
+  background: rgb(20, 23, 33);
+  background: rgb(20,23,33);
+background: linear-gradient(185deg, rgba(20,23,33,1) 18%, rgba(52,52,52,1) 81%);
+}
+.banner h2 {
+  font-family: "Dokdo", cursive;
+  font-size: 52px;
+  color: aliceblue;
+}
+.banner p {
+  font-family: "Dokdo", cursive;
+  color: aliceblue;
+  font-size: 32px;
+}
+
+.rounded-circle {
+  width: 70%;
+  border:1px white solid;
+}
+.modal-dialog {
+  width: 22%;
+  padding: 1em;
+  margin: 12px;
+}
+.img-trg-person-live{
+  border:solid 5px green;
+}
+.img-trg-person-muerto {
+  border:solid 5px red;
+
+}
+.trg-person , .trg-location{
+  background-image:url(https://img.freepik.com/vector-premium/resumen-patrones-fisuras-estrellas-diferentes-tamanos-colores-negro-gris_444390-18107.jpg?w=740);
+color:white;
+border:solid 22px green;
+}
+.dropdown-menu {
+
+  z-index: 200;
+  height: 50vh;
+  overflow-y: scroll;
+  
+}
+.dropdown-menu::-webkit-scrollbar{
+  width: 3px;
+}
+.dropdown-menu::-webkit-scrollbar-thumb {
+  background:rgb(255, 255, 255);
+  border-radius:12px;
+  -webkit-border-radius:12px;
+  -moz-border-radius:12px;
+  -ms-border-radius:12px;
+  -o-border-radius:12px;
+}
+.btn-arriba {
+  position: absolute;
+  background: #000;
+  width: 30px;
+}
+.busqueda {
+  max-height: 36px;
+}
+.img-detail {
+  width: 40%;
+  height: 100%;
+}

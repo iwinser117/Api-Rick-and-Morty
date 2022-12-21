@@ -1,5 +1,9 @@
 # Api-Rick-and-Morty
 
+![Screenshot from 2022-12-19 19-17-25](https://user-images.githubusercontent.com/77251836/208811762-38a9b6d1-07b6-48bb-bf75-f30455490a31.png)
+
+![Screenshot from 2022-12-19 19-17-41](https://user-images.githubusercontent.com/77251836/208811814-1e7b1790-082d-4370-b18c-cea80062b9af.png)
+
 
 
 Se ejecuta desarrollo de una web en la cual se consume la API de Rick and Morty. haciendo uso de React y Bootstrap. 
@@ -22,4 +26,4 @@ en el navegador la interfaz de la web.
 #### Colaboradores
 
 Iwinser Sanchez --- Autor.
-<iwinser.sanche47@gmail.com>
+<iwinser.sanchez47@gmail.com>

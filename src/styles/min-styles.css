@@ -1,0 +1,7 @@
+@media screen and (max-width: 800px) {
+  .modal-dialog {
+  width: 50%;
+  padding: 1em;
+  margin: 12px;
+}
+}

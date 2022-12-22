@@ -4,5 +4,6 @@ import { BrowserRouter,Router, Route,Routes } from "react-router-dom";
 
 import App from "./routes/App";
 import './styles/index.css'
+import './styles/min-styles.css'
 
 ReactDOM.render(<App/>, document.getElementById('app'));

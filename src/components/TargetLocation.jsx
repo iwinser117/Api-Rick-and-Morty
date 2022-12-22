@@ -6,7 +6,7 @@ const TargetLocation = ({dat}) => {
   
   /* const { name, id, type} = dat; */
   return (
-    <div className='modal-dialog text-center border border-1 rounded-circle trg-location'>
+    <div className='modal-dialog  border border-1 trg-location'>
             <div className=''>
             <p>Nombre : {dat.name}</p>
             <p>tipo:  {dat.type}</p>

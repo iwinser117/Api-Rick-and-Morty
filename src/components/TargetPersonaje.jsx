@@ -7,20 +7,19 @@ const TargetPersonaje = ({ character, page }) => {
   /* const { id, status, name, image } = character; */
   return (
     <div className="modal-dialog text-center border border-1 rounded-circle trg-person">
-      <Link
-        to={`${page}${character.id}`}
-        className="pe-auto"
-      >
-        <i className="fa-regular fa-eye"></i>
-      </Link>
       <p>
-        {character.name}
+        <h6>{character.name}</h6>
+        <StatusPerLive character={character} />
+        <Link to={`${page}${character.id}`} className="pe-auto">
+          <i className="fa-regular fa-eye"></i>
+        </Link>
         <br />
-        {character.origin.name} <br />
+        Especie:
         {character.species}
+        <br />
+        Origen:
+        {character.origin.name}
       </p>
-
-      <StatusPerLive character={character} />
     </div>
   );
 };

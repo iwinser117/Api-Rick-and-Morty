@@ -14,9 +14,9 @@ const Banner = () => {
           Gracias por su visita.
         </p>
       </div>
-      <div className="icns text-center justify-content-around d-flex">
-    <img src={icRick} alt="" />
-    <img src={icMorty} alt="" />
+      <div className="d-flex justify-content-around m-auto">
+    <img className="img-banner" src={icRick} alt="" />
+    <img className="img-banner" src={icMorty} alt="" />
       </div>
     </div>
   );

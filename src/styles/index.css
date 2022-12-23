@@ -57,6 +57,12 @@
   padding: 1em;
   margin: 12px;
 }
+.cont-TDet {
+  margin: 12px;
+  min-width: 30%;
+  max-width: 40%;
+  height: 250px;
+}
 .img-trg-person-live {
   border: solid 5px green;
 }

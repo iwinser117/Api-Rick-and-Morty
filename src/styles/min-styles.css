@@ -4,4 +4,10 @@
   padding: 1em;
   margin: 12px;
 }
+.cont-TDet {
+  margin: 8px;
+  min-width: 50%;
+  max-width: 40%;
+  height: 250px;
+}
 }

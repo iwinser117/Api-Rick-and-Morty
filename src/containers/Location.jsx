@@ -1,5 +1,5 @@
 import axios from "axios";
-import React, { useState, useEffect, useMemo, useRef,useCallback } from "react";
+import React, { useState, useMemo, useRef,useCallback } from "react";
 import TargetLocation from "../components/TargetLocation";
 import Busqueda from "../components/Busqueda";
 
@@ -23,11 +23,12 @@ const Location = ({location}) => {
       <section className="container-fluid row justify-content-around d-flex sect-per">
         <h1 className="title-ubicacion">Ubicaciones</h1>
         <Busqueda
-        placeholder={"¿Buscas a alguien?"}
-        search={search}
-        searchInput={searchInput}
-        handleSearch={handleSearch}
-      />
+          placeholder={"¿Buscas a alguien?"}
+          search={search}
+          searchInput={searchInput}
+          handleSearch={handleSearch}
+        />
+        
         {/* <TargetLocation/> */}
         {filteredUsers.map((dat) => (
           <TargetLocation key={dat.id} dat={dat} />

@@ -27,22 +27,16 @@ const Nav = ({personajes, location}) => {
         <li className="nav-item">
           <NavLink to={"/locaciones"} className="nav-link text-white">Ubicaciones</NavLink>
         </li>
-        <li className="nav-item dropdown">
+        {/* <li className="nav-item dropdown">
         <a className="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
           Episodios
         </a>
         <ul className="dropdown-menu ">
           <ListEpisodios/>
-        {/* {datoUn.map(ep => (
-          
-        <ListEpisodios  key={ep.id} ep={ep} />
         
-      ))} */}
-      
-          {/* <li><a className="dropdown-item" href="#">jioo</a></li> */}
           
         </ul>
-      </li>
+      </li> */}
         
       </ul>
       

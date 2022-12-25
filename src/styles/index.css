@@ -110,3 +110,9 @@
 .img-trg-person-desconocido {
   border: solid 5px rgb(11, 47, 114);
 }
+.logo {
+  width: 70px;
+  height: 50px;
+  padding: 0;
+  position:relative;
+}

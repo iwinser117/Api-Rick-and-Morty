@@ -10,4 +10,13 @@
   max-width: 40%;
   height: 250px;
 }
+.title-ubicacion {
+
+  font-size: 3em;
+}
+.cont-TDet {
+  margin: 12px;
+  min-width: 80%;
+  height: auto;
+}
 }

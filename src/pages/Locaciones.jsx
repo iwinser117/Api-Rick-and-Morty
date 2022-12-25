@@ -30,7 +30,7 @@ const Locaciones = () => {
   }, []);
   return (
     <>
-      <Nav />
+      <Nav/>
       <Location location={location} />
       <Paginacion
         prev={page.prev}

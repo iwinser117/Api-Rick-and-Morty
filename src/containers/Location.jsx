@@ -20,7 +20,7 @@ const Location = ({location}) => {
   );
   return (
     <>
-      <section className="container-fluid row justify-content-around d-flex sect-per">
+      <section className="container row justify-content-around d-flex sect-per">
         <h1 className="title-ubicacion">Ubicaciones</h1>
         <Busqueda
           placeholder={"¿Buscas a alguien?"}
@@ -28,7 +28,7 @@ const Location = ({location}) => {
           searchInput={searchInput}
           handleSearch={handleSearch}
         />
-        
+
         {/* <TargetLocation/> */}
         {filteredUsers.map((dat) => (
           <TargetLocation key={dat.id} dat={dat} />

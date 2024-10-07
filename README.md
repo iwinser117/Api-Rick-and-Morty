@@ -1,29 +1,27 @@
-# Api-Rick-and-Morty
+# API Rick and Morty
 
-![Screenshot from 2022-12-19 19-17-25](https://user-images.githubusercontent.com/77251836/208811762-38a9b6d1-07b6-48bb-bf75-f30455490a31.png)
+![Screenshot 1](https://user-images.githubusercontent.com/77251836/208811762-38a9b6d1-07b6-48bb-bf75-f30455490a31.png)
+![Screenshot 2](https://user-images.githubusercontent.com/77251836/208811814-1e7b1790-082d-4370-b18c-cea80062b9af.png)
 
-![Screenshot from 2022-12-19 19-17-41](https://user-images.githubusercontent.com/77251836/208811814-1e7b1790-082d-4370-b18c-cea80062b9af.png)
+## Descripción
 
+Este proyecto es una **aplicación web** que consume la [API de Rick and Morty](https://api-rick-and-morty-17j9.vercel.app/) utilizando **React** y **Bootstrap**. A través de este proyecto, se aplican conocimientos sobre la creación de componentes en React y el uso de herramientas de `react-dom`, así como el manejo de **promesas** para la obtención de datos de la API y el renderizado de componentes.
 
+La aplicación actualmente está funcional y sigue mejorando con cada commit. ¡Si tienes sugerencias o aportaciones, estaré muy atento!
 
-Se ejecuta desarrollo de una web en la cual se consume la API de Rick and Morty. haciendo uso de React y Bootstrap. 
-Aplicando los conocimientos adquiridos respecto a creacion de componentes y haciendo uso del las herramientas del react-dom.
-ademas de uso de promesas para la obtencion de datos de la api y el renderizado de componentes.
+## **Demostración**
 
+Puedes acceder a la aplicación en el siguiente enlace:
 
+👉 [Ver la aplicación](https://api-rick-and-morty-17j9.vercel.app/)
 
-Actualmente esta funcional, sin embargo esta mejorando con cada commit, Si tienes algo que aportar quedo muy atento.
+## **Uso**
 
+Para ejecutar la aplicación en tu entorno local, sigue estos pasos:
 
-###  ------      uso       ------
-En la consola de tu IDE , sobre la carpeta raiz ejecuta  este par de comandos, el segundo comando te dira el puerto donde se puede ver
-en el navegador la interfaz de la web.
+1. Abre la consola de tu IDE y navega a la carpeta raíz del proyecto.
+2. Ejecuta los siguientes comandos:
 
-* npm install
-* npm run start
-
-
-#### Colaboradores
-
-Iwinser Sanchez --- Autor.
-<iwinser.sanchez47@gmail.com>
+   ```bash
+   npm install
+   npm run start

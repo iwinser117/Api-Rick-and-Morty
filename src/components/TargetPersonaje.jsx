@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import ReactDOM from "react-dom";
 import StatusPerLive from "../components/StatusPerLive";
+
 const TargetPersonaje = ({ character, page }) => {
   
   /* const { id, status, name, image } = character; */
@@ -11,7 +12,7 @@ const TargetPersonaje = ({ character, page }) => {
       <StatusPerLive character={character} />
       <p>
         <Link to={`${page}${character.id}`} className="pe-auto">
-          <i className="fa-regular fa-eye"></i>
+          <i className="fa-regular fa-eye"> - detalles</i>
         </Link>
         <br />
         Especie:

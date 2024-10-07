@@ -1,22 +1,16 @@
 import React from "react";
-import "../styles/index.css";
+import "../styles/banner.css";
 import icRick from '../asset/icons8-rick-sanchez-400.svg'
 import icMorty from '../asset/icons8-morty-smith-400.svg'
 
 const Banner = () => {
   return (
-    <div className="container-fluid  justify-content-around d-flex banner">
-      <div className="title">
-        <h2>Rick and Morty</h2>
-
-        <p>
-          bienvenidos a mi Web donde se consume la api de Rick and Morty ,<br />{" "}
-          Gracias por su visita.
-        </p>
-      </div>
-      <div className="d-flex justify-content-around m-auto">
-    <img className="img-banner" src={icRick} alt="" />
-    <img className="img-banner" src={icMorty} alt="" />
+    <div className="banner">
+      <h1 className="banner-title">Rick and Morty</h1>
+      <p className="banner-subtitle">Bienvenidos a mi web de Rick and Morty</p>
+      <div className="banner-images">
+        <img src={icRick} alt="Rick" />
+        <img src={icMorty} alt="Morty" />
       </div>
     </div>
   );

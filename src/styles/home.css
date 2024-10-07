@@ -1,0 +1,22 @@
+/* Home */
+.home {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    min-height: 100vh; /* Ocupará todo el alto de la pantalla */
+    width: 100vw; /* Ocupará todo el ancho de la pantalla */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribuirá el contenido uniformemente */
+    padding: 0; /* Elimina cualquier padding */
+    margin: 0; /* Elimina cualquier margen */
+  }
+  
+  .main-content {
+    width: 100%;
+    flex-grow: 1; /* Hacer que este contenido crezca para llenar el espacio */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  

@@ -1,118 +1,157 @@
+/* General para el Home */
 .home {
-  width: auto;
-  height: 100vh;
-}
-.title-pers,
-.title-ubicacion {
-  text-align: center;
-  color: white;
-  font-size: 5em;
-  font-family: "Dokdo", cursive;
-}
-.sect-per {
-  min-height: 90vh;
-  margin: auto;
-  max-width: 100%;
-  background: rgb(37, 36, 26);
-  background: linear-gradient(
-    180deg,
-    rgba(37, 36, 26, 0.8267682072829132) 14%,
-    rgba(28, 36, 43, 1) 99%
-  );
-}
-.banner {
-  height: 100vh;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-position: center center;
-  /* background-image: url(https://i.pinimg.com/564x/8c/cb/48/8ccb48330a7757a44b4f093b27772efd.jpg); */
+  display: flex;
   flex-direction: column;
-  background: rgb(20, 23, 33);
-  background: rgb(20, 23, 33);
-  background: linear-gradient(
-    185deg,
-    rgba(20, 23, 33, 1) 18%,
-    rgba(52, 52, 52, 1) 81%
-  );
-}
-.banner h2 {
-  font-family: "Dokdo", cursive;
-  font-size: 52px;
-  color: aliceblue;
-}
-.banner p {
-  font-family: "Dokdo", cursive;
-  color: aliceblue;
-  font-size: 32px;
-}
-.img-banner {
-  max-width: 50%;
-}
-.rounded-circle {
-  width: 70%;
-  border: 1px white solid;
-}
-.modal-dialog {
-  width: 22%;
-  padding: 1em;
-  margin: 12px;
-}
-.cont-TDet {
-  margin: 12px;
-  min-width: 25%;
-  max-width: 30%;
-  height: 250px;
-}
-.img-trg-person-live {
-  border: solid 5px green;
-}
-.img-trg-person-muerto {
-  border: solid 5px red;
-}
-.trg-person,
-.trg-location {
-  background-image: url(https://img.freepik.com/vector-premium/resumen-patrones-fisuras-estrellas-diferentes-tamanos-colores-negro-gris_444390-18107.jpg?w=740);
-  color: white;
-  border: solid 22px green;
-}
-.dropdown-menu {
-  z-index: 200;
-  height: 50vh;
-  overflow-y: scroll;
-}
-.dropdown-menu::-webkit-scrollbar {
-  width: 3px;
-}
-.dropdown-menu::-webkit-scrollbar-thumb {
-  background: rgb(255, 255, 255);
-  border-radius: 12px;
-  -webkit-border-radius: 12px;
-  -moz-border-radius: 12px;
-  -ms-border-radius: 12px;
-  -o-border-radius: 12px;
-}
-.btn-arriba {
-  position: absolute;
-  background: #000;
-  width: 30px;
-}
-.busqueda {
-  max-height: 36px;
-}
-.img-detail {
-  width: 30%;
-}
-.card-detail {
-  height: 70vh;
-  border: none;
   justify-content: center;
-}
-.img-trg-person-desconocido {
-  border: solid 5px rgb(11, 47, 114);
-}
-.logo {
-  width: 70px;
-  height: 50px;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f9f9f9;
   padding: 0;
-  position:relative;
+  /* Eliminar padding extra */
+}
+
+/* Container para limitar el ancho del contenido */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  /* Ancho máximo típico de un sitio web */
+  margin: 0 auto;
+  /* Centrar el contenido */
+  padding: 20px;
+  /* Espaciado interno */
+  box-sizing: border-box;
+  /* Asegurar que padding no afecte el ancho */
+}
+
+/* Estilos para el Banner */
+.banner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  background-color: #e3e3e3;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  /* Sombra para profundidad */
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.title-container {
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 32px;
+  /* Tamaño mayor para el título */
+  font-weight: bold;
+  color: #2c3e50;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #7f8c8d;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  /* Espaciado entre las imágenes */
+  flex-wrap: wrap;
+}
+
+.image {
+  width: 150px;
+  /* Tamaño mayor de las imágenes */
+  height: 150px;
+  margin: 10px;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.image:hover {
+  transform: scale(1.1);
+}
+
+/* NAV */
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #34495e;
+  color: #ecf0f1;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  /* Sombra para el nav */
+  width: 100%;
+  max-width: 1200px;
+  /* Limitar el ancho */
+  margin: 0 auto;
+  /* Centrar en pantallas grandes */
+}
+
+.nav-logo img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.nav-links ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  gap: 25px;
+  /* Espacio entre los links */
+}
+
+.nav-links a {
+  color: #ecf0f1;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #bdc3c7;
+}
+
+.nav-search {
+  margin-left: 20px;
+}
+
+.nav-search input {
+  padding: 8px 12px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+/* Responsividad para pantallas pequeñas */
+@media (max-width: 768px) {
+  .nav-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .image-container {
+    flex-direction: column;
+  }
+}
+
+
+.card-detail {
+  justify-items: center;
+  height: 100vh;
+  display: flex;
+}
+
+.card-content {
+  justify-items: center;
+}
+
+.title-center{
+  text-align: center !important;
 }

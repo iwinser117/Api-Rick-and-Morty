@@ -1,8 +1,10 @@
-import React, { useEffect, useState, useMemo } from "react";
+import React, { useEffect, useState } from "react";
 import Nav from "../containers/Nav";
 import Card from "../containers/Card";
 import BtnArriba from "../components/BtnArriba";
 import Paginacion from "../components/Paginacion";
+import '../styles/personajes.css'; 
+
 const Personajes = () => {
   const [personajes, setPersonajes] = useState([]);
   const [page, setPage] = useState({});
@@ -29,7 +31,7 @@ const Personajes = () => {
   return (
     <>
       <Nav />
-      <Card personajes={personajes}  />
+      <Card personajes={personajes} />
       <Paginacion
         prev={page.prev}
         next={page.next}

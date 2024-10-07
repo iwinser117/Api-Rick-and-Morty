@@ -3,6 +3,7 @@ import Busqueda from "../components/Busqueda";
 import TargetPersonaje from "../components/TargetPersonaje";
 import Paginacion from "../components/Paginacion";
 
+
 const Card = ({ personajes = [] }) => {
   const [search, setSearch] = useState("");
   const searchInput = useRef(null);
